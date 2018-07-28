@@ -26,5 +26,10 @@ namespace WebChat.Controllers
 
             return View();
         }
+
+        public string Foo(int a=10, int b=20)
+        {
+            return "sdf" + Request.ApplicationPath;
+        }
     }
 }
